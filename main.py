@@ -12,7 +12,7 @@ my_files = r"C:/Users/Orion/Documents/Github/parkingLot/static/data/"
 project_dir = os.path.dirname(os.path.abspath(__file__))
 file_dir = my_files
 test_file_dir = r"C:/Users/Orion/Documents/parkingLot/"
-file = file_dir + r"jsonContainer.json"
+file = file_dir + r"options.json"
 # file2 = file_dir + r"jsonContainer2.json"
 
 
