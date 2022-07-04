@@ -1,0 +1,20 @@
+[
+    {
+        "Parking Spot": "2A",
+        "Name": "Steven Seagal",
+        "Car Make/Model": "Chevrolet Spark",
+        "License Plate": "8348HF"
+    },
+    {
+        "Parking Spot": "2B",
+        "Name": "Brad Pitt",
+        "Car Make/Model": "Volvo Penta",
+        "License Plate": "LF94G3"
+    },
+    {
+        "Parking Spot": "2C",
+        "Name": "Ray Bradbury",
+        "Car Make/Model": "Ford Focus",
+        "License Plate": "ROFG34"
+    }
+]

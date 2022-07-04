@@ -1,0 +1,20 @@
+[
+    {
+        "Parking Spot": "3A",
+        "Name": "Elvis Presley",
+        "Car Make/Model": "Ford F150",
+        "License Plate": "8348HF"
+    },
+    {
+        "Parking Spot": "3B",
+        "Name": "Forrest Gump",
+        "Car Make/Model": "Jeep Grand Cherokee",
+        "License Plate": "LF94G3"
+    },
+    {
+        "Parking Spot": "3C",
+        "Name": "John Cena",
+        "Car Make/Model": "Kia Cadenza",
+        "License Plate": "ROFG34"
+    }
+]

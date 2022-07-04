@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+    <title>Parking Container</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="{{ url_for('static', filename='js/ajaxTable.js') }}"></script>
+
+</head>
+
+<body>
+
+
+    <h2> Parking Lot Container </h2>
+
+
+    <div class="container">
+
+        <form enctype="multipart/form-data" action='download' method="POST">
+            <div class="form-row mb-3">
+                <div class="input-group col-sm-8">
+                    <div class="input-group-prepend">
+                        <button type="button" id="ajax_data_load"
+                            class="btn btn-secondary fixed-button-size">Run</button>
+                    </div>
+                    <select name="user" class="custom-select fixed-button-size">
+                        <option value="zero">Option..</option>
+                        <option value="one">Parking Lot One</option>
+                        <option value="two">Parking Lot Two</option>
+                        <option value="three">Parking Lot Three</option>
+                    </select>
+                </div>
+            </div>
+        </form>
+
+        <table id="jds-example" class="table">
+            <thead>
+                <tr>
+                    {% for col in data.columns %}
+                    <th scope="col"> {{ col }}</th>
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody>
+                {% for key, value in data.iterrows() %}
+                <tr>
+                    {% for k in value %}
+                    <td scope="row">{{ k }}</td>
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+    </div>
+
+
+</body>
+
+</html>

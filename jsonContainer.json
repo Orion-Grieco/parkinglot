@@ -1,0 +1,20 @@
+[
+    {
+        "Parking Spot": "1A",
+        "Name": "Larry King",
+        "Car Make/Model": "Bugatti Veyron",
+        "License Plate": "953DKG"
+    },
+    {
+        "Parking Spot": "1B",
+        "Name": "Mike Tyson",
+        "Car Make/Model": "Chevy Silverado",
+        "License Plate": "9BFG88"
+    },
+    {
+        "Parking Spot": "1C",
+        "Name": "Old Man Jenkins",
+        "Car Make/Model": "The Patty Wagon",
+        "License Plate": "FR13SH"
+    }
+]
