@@ -1,14 +1,14 @@
 import json
 import pandas as pd
 from flask import jsonify, Flask, render_template, redirect, session, request
-#from tabulate import tabulate
+
+# from tabulate import tabulate
 import os
 
 template_dir = os.path.abspath("C:/Users/Orion/PycharmProjects/flaskTesting/templates")
 app = Flask(__name__, template_folder=template_dir)
 app.config["JSON_SORT_KEYS"] = False
-
-my_files = r"C:/Users/Orion/PycharmProjects/flaskTesting/static/data/"
+my_files = r"C:/Users/Orion/Documents/Github/parkingLot/static/data/"
 project_dir = os.path.dirname(os.path.abspath(__file__))
 file_dir = my_files
 test_file_dir = r"C:/Users/Orion/Documents/parkingLot/"
